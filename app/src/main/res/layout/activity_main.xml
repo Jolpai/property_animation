@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:background="#009900"></View>
+    <View
+        android:id="@+id/v2"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:background="#0099FF"></View>
+      <View
+          android:id="@+id/v3"
+          android:layout_width="9dp"
+          android:layout_height="9dp"
+          android:background="#FF9900"></View>
+
+    <!--    <View
+            android:id="@+id/v4"
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:background="@color/abc_input_method_navigation_guard"></View>-->
+
+</LinearLayout>
